@@ -4,4 +4,3 @@
 - `pages/` — 13 pages, same arrangement.
 - `_unattached/` — media from the library that no post or page used (kept in WordPress's year/month folders).
 - Every file has front matter: title, dates, author, status (publish/draft/private), categories, tags, original URL, featured image, and any other media that was attached to that post.
-- Every media file lives under a directory named after the article it's referenced in
