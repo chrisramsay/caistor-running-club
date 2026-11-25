@@ -1,0 +1,12 @@
+# Download script log
+missing_media.txt
+
+# Python
+__pycache__/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/

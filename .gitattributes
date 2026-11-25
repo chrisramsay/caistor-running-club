@@ -1,0 +1,25 @@
+# Let Git detect text files and normalise their line endings
+* text=auto
+
+# Always use LF for content and tooling, even when checked out on Windows
+*.md    text eol=lf
+*.py    text eol=lf
+*.json  text eol=lf
+*.xml   text eol=lf
+*.csv   -text
+source/** -text
+.gitignore      text eol=lf
+.gitattributes  text eol=lf
+
+# Media and documents: never touch line endings or try to diff them
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.webp  binary
+*.heic  binary
+*.pdf   binary
+*.doc   binary
+*.docx  binary
+*.xls   binary
+*.xlsx  binary
